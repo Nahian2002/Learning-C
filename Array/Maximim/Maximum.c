@@ -2,7 +2,7 @@
 
 int main()
 {
-    int i,min,n;
+    int i,max,n;
 
     printf("Enter the number of elements in an array: ");
     scanf("%d",&n);
@@ -15,15 +15,15 @@ int main()
     {
         scanf("\n%d",&arr[i]);
     }
-    min=arr[0];
+    max=arr[0];
 
     for(i=0;i<n;i++)
     {
         if(arr[i]>min)
-            min=arr[i];
+            max=arr[i];
     }
 
-    printf("The maximum number is %d",min);
+    printf("The maximum number is %d",max);
     return 0;
 }
 
