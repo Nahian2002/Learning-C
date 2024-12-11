@@ -19,11 +19,10 @@ int main()
 
     for(i=0;i<n;i++)
     {
-        if(arr[i]>min)
+        if(arr[i]>max)
             max=arr[i];
     }
 
     printf("The maximum number is %d",max);
     return 0;
 }
-
